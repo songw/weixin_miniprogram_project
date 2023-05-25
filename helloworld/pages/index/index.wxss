@@ -1,0 +1,70 @@
+page {
+  background-color: #F6F7F9;
+}
+
+.btn_btn {
+  width: 340rpx!important;
+  margin-top:25rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  position: relative;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.btn_icon {
+  position: absolute;
+  right: 260rpx;
+}
+
+.btn_char {
+  font-size: 14px;
+  font-weight: 450;
+  position: absolute;
+  left: 100rpx;
+}
+
+.btn_class {
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.weui-tabs-bar__wrp {
+  border-bottom: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.weui-tabs-swiper {
+  width: 100%;
+}
+
+.tab-content {
+  height: auto;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40rpx; */
+}
+
+.weui-tabs-bar__title {
+  margin: 0px 10px;
+}
+
+.tab-bar-title__selected {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tab-style {
+  font-size: 16px;
+}
+
+.tab-background-color_style{
+  background-color: blue;
+}

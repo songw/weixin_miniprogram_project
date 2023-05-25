@@ -1,0 +1,4 @@
+<!--pages/universal_char_recognition/universal_char_recognition.wxml-->
+<view>
+  <web-view src="https://www.xfyun.cn/page/ailab-demo?pid=2"></web-view>
+</view>
