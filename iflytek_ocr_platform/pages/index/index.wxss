@@ -10,7 +10,7 @@ page {
 
 .img2_style {
   border-radius: 15rpx;
-  margin: 20rpx;
+  margin: 20rpx 20rpx 0rpx 20rpx;
   width: 710rpx;
 }
 
@@ -74,7 +74,8 @@ page {
 }
 
 .tab-style {
-  font-size: 16px;
+  font-size: 20px;
+
 }
 
 .tab-background-color_style{

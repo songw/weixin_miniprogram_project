@@ -17,6 +17,7 @@
   tab-background-color="tab-background-color_style"
   tab-class = "tab-style"
   swiperStyle = "height: {{tabSwiperHeight}}px"
+  tab-background-color = "#F6F7F9"
 >
   <block wx:for="{{tabs}}" wx:key="title">
     <view class="tab-content" slot="tab-content-{{index}}">
