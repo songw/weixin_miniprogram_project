@@ -1,0 +1,419 @@
+<!--index.wxml-->
+<view>
+  <image src = "../../image/1.jpg" style="width:700rpx" mode="widthFix" ></image>
+</view>
+
+<mp-tabs 
+  tabs="{{tabs}}" 
+  activeTab="{{activeTab}}" 
+  swiperClass="weui-tabs-swiper"
+  bindtabclick="onTabCLick"
+  bindchange="onChange"
+  activeClass="tab-bar-title__selected"
+  tab-background-color="tab-background-color_style"
+  tab-class = "tab-style"
+  swiperStyle = "height: {{tabSwiperHeight}}px"
+>
+  <block wx:for="{{tabs}}" wx:key="title">
+    <view class="tab-content" slot="tab-content-{{index}}">
+      <view wx:if="{{index == 0}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用表格</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">增值税发票</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用-表格.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/增值税发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">国内通用票据</text>
+          </button>
+        </view>
+      </view>
+      <view wx:elif="{{index == 1}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view>
+      <view wx:elif="{{index == 2}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view>
+      <view wx:elif="{{index == 3}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view>
+      <view wx:elif="{{index == 4}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view>
+      <view wx:elif="{{index == 5}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/机票行程单.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">机票行程单</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/营业执照.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">营业执照</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/客运汽车票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">客运汽车票</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/网约车行程单.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">网约车行程单</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">驾驶证</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">全电发票</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/户口本.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">户口本</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/结婚证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">结婚证</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/机动车销售发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">机动车销售发票</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">组织机构代码证</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">机打发票</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">定额发票</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">退票凭证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">过路费发票</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">增值税发票（卷票）</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">出租车发票</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">火车票</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">增值税发票</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">行驶证</text>
+          </button>
+        </view>
+
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/驾驶证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">增值税发票</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/全电发票.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">行驶证</text>
+          </button>
+        </view>
+      </view>
+      <view wx:elif="{{index == 6}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view> 
+      <view wx:elif="{{index == 7}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view> 
+      <view wx:elif="{{index == 8}}">
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view> 
+      <view wx:else>
+        <view class="btn_class">
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/通用文字识别.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">通用文字</text>
+          </button>
+          
+          <button class = "btn_btn" bindtap="universal_char_recognition_page">
+            <image class = "btn_icon" src = "../../image/身份证.png" style="height:40rpx" mode = "heightFix"></image>
+            <text class = "btn_char">身份证</text>
+          </button>
+        </view>
+      </view>
+    </view>
+  </block>
+</mp-tabs>
+
+
+
+
