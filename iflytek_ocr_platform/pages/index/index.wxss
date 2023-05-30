@@ -2,6 +2,18 @@ page {
   background-color: #F6F7F9;
 }
 
+.img1_style {
+  margin-top: 100rpx;
+  margin-left: 20rpx;
+  width: 300rpx;
+}
+
+.img2_style {
+  border-radius: 15rpx;
+  margin: 20rpx;
+  width: 710rpx;
+}
+
 .btn_btn {
   width: 340rpx!important;
   margin-top:25rpx;

@@ -1,6 +1,10 @@
 <!--index.wxml-->
 <view>
-  <image src = "../../image/1.jpg" style="width:700rpx" mode="widthFix" ></image>
+  <image src = "../../image/logo.png" class = "img1_style" mode="widthFix"></image>
+</view>
+
+<view>
+  <image src = "../../image/banner.png" class = "img2_style" mode="widthFix"></image>
 </view>
 
 <mp-tabs 
