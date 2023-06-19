@@ -10,12 +10,12 @@ page {
 
 .img2_style {
   border-radius: 15rpx;
-  margin: 20rpx 20rpx 0rpx 20rpx;
-  width: 710rpx;
+  margin: 15rpx 15rpx 0rpx 15rpx;
+  width: 722rpx;
 }
 
 .btn_btn {
-  width: 340rpx!important;
+  width: 350rpx!important;
   margin-top:25rpx;
   background-color: white;
   border-radius: 10rpx;
@@ -23,28 +23,34 @@ page {
   height: 45px;
   display: flex;
   align-items: center;
+  margin-left: 0rpx;
+  margin-right: 0rpx;
 }
 
 .btn_icon {
   position: absolute;
-  right: 260rpx;
+  right: 280rpx;
 }
 
 .btn_char {
   font-size: 14px;
   font-weight: 450;
   position: absolute;
-  left: 100rpx;
+  left: 80rpx;
 }
 
 .btn_class {
   margin-right: 15rpx;
   margin-left: 15rpx;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
+  /* flex-wrap: wrap */
 }
 
+
+
+/*tabs style*/
 .weui-tabs-bar__wrp {
   border-bottom: 1px solid #eee;
   margin-top: 10px;
@@ -75,7 +81,6 @@ page {
 
 .tab-style {
   font-size: 20px;
-
 }
 
 .tab-background-color_style{

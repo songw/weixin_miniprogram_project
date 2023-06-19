@@ -38,11 +38,11 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "condition": false
+    "condition": false,
+    "ignoreUploadUnusedFiles": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
-  "appid": "wx0c0d76c5b45580b0",
   "projectname": "miniprogram-92",
   "condition": {},
   "editorSetting": {

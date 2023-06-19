@@ -9,7 +9,7 @@ Page({
   },
 
   onLoad() {
-    const titles = ['全部', '推荐', '图像处理', '通用识别', '个人证件识别', '国内票据识别', '海外证件识别', '车辆相关识别', '企业证照识别', '港澳台证件识别']
+    const titles = ['国内票据识别', '个人证件识别', '企业证照识别', '通用识别', '图像处理']
     const tabs = titles.map(item => ({title: item}))
     this.setData({tabs})
 
