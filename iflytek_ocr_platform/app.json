@@ -2,7 +2,26 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/universal_char_recognition/universal_char_recognition"
+    "pages/iflytek_uniform_air_itinerary/iflytek_uniform_air_itinerary",
+    "pages/iflytek_uniform_bus_license/iflytek_uniform_bus_license",
+    "pages/iflytek_uniform_bus_passenger/iflytek_uniform_bus_passenger",
+    "pages/iflytek_uniform_didi_itinerary/iflytek_uniform_didi_itinerary",
+    "pages/iflytek_uniform_drive_license/iflytek_uniform_drive_license",
+    "pages/iflytek_uniform_full_invoice/iflytek_uniform_full_invoice",
+    "pages/iflytek_uniform_id_card/iflytek_uniform_id_card",
+    "pages/iflytek_uniform_motor_vehicle/iflytek_uniform_motor_vehicle",
+    "pages/iflytek_uniform_organization_code/iflytek_uniform_organization_code",
+    "pages/iflytek_uniform_print_invoice/iflytek_uniform_print_invoice",
+    "pages/iflytek_uniform_quota_invoice/iflytek_uniform_quota_invoice",
+    "pages/iflytek_uniform_refund_voucher/iflytek_uniform_refund_voucher",
+    "pages/iflytek_uniform_road_toll/iflytek_uniform_road_toll",
+    "pages/iflytek_uniform_roll_invoice/iflytek_uniform_roll_invoice",
+    "pages/iflytek_uniform_taxi_ticket/iflytek_uniform_taxi_ticket",
+    "pages/iflytek_uniform_train_ticket/iflytek_uniform_train_ticket",
+    "pages/iflytek_uniform_vat_invoice/iflytek_uniform_vat_invoice",
+    "pages/iflytek_uniform_marriage_certificate/iflytek_uniform_marriage_certificate",
+    "pages/iflytek_uniform_household_register/iflytek_uniform_household_register",
+    "pages/iflytek_uniform_vehicle_card/iflytek_uniform_vehicle_card"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -80,7 +80,7 @@ page {
 }
 
 .tab-style {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .tab-background-color_style{

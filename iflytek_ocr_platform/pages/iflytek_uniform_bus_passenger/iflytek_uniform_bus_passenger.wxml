@@ -1,0 +1,4 @@
+<!--pages/universal_char_recognition/universal_char_recognition.wxml-->
+<view>
+  <web-view src="https://ocrdemo.xfyun.cn/bus_passenger/"></web-view>
+</view>

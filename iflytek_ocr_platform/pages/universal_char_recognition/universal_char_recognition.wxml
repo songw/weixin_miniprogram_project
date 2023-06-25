@@ -1,5 +1,0 @@
-<!--pages/universal_char_recognition/universal_char_recognition.wxml-->
-<view>
-  <!-- <web-view src="https://ailabdemo.xfyun.cn/image_classification/"></web-view> -->
-  <web-view src="https://ailabdemo.xfyun.cn/object_detection/"></web-view>
-</view>
